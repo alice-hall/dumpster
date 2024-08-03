@@ -1,0 +1,55 @@
+        const texts = [
+            "What's reality? I don't know. When my bird was looking at my computer monitor I thought, That bird has no idea what he's looking at. And yet what does the bird do? Does he panic? No, he can't really panic, he just does the best he can.",
+            " I shamble about, a thing that could never have been known as human, a thing whose shape is so alien a travesty that humanity becomes more obscene for the vague resemblance. Inwardly: alone. Here. Living under the land, under the sea, in the belly of AM, whom we created because our time was badly spent and we must have known unconsciously that he could do it better.",
+            "If the doors of perception were cleansed everything would appear to man as it is, infinite.",
+            "There is nothing that cuts you down to size like coming to some strange and marvelous place where no one even stops to notice that you stare about you.",
+            "The Abyss of Hallucinations has Law and Reason; but in Truth there is no bond between the Toys ofthe Gods.",
+            "Part of life is eating shit and smiling.",
+            "He told me his 'vision of God' was depicted in the last scene in William Gibson's book 'Neuromancer.'  At the end of the world, all the information stored in all the computers will rise up into Cyberspace and mingle together.' he said. 'That's God.'",
+            "Woman is not born: she is made. In the making, her humanity is destroyed. She becomes symbol of this, symbol of that: mother of the earth, slut of the universe...",
+            "At times I suffer from the strangest sense of detachment from myself and the world about me; I seem to watch it all from the outside, from somewhere inconceivably remote, out of time, out of space, out of the stress and tragedy of it all.",
+            "Wherefore come thou, O Spirit N., forthwith, and without delay, from any or all parts of the world wherever thou mayest be, and make rational answers unto all things that I shall demand of thee.",
+            "The Days and Hours of Jupiter are proper for obtaining honours, acquiring riches; contracting friendships, preserving health; and arriving at all that thou canst desire.",
+            "The Days and Hours of Venus are good for forming friendships; for kindness and love; for joyous and pleasant undertakings, and for travelling.",
+            "I managed to maintain on the surface a smile which never deserted my lips; this was the accommodation I offered to others, a most precarious achievement performed by me only at the cost of excruciating efforts within.",
+            "I have always shook with fright before human beings. Unable as I was to feel the least particle of confidence in my ability to speak and act like a human being, I kept my solitary agonies locked in my breast.",
+            "There are some people whose dread of human beings is so morbid that they reach a point where they yearn to see with their own eyes monsters of ever more horrible shapes.",
+            "They always call depression the blues, but I would have been happy to waken to a periwinkle outlook. Depression to me is urine yellow. Washed out, exhausted miles of weak piss.",
+            "Sometimes I think illness sits inside every woman, waiting for the right moment to bloom.",
+            "A child weaned on poison considers harm a comfort.",
+            "... the truth on the other hand doesn’t always tickle the ear and warm the ego of its listeners.",
+            "When seen in better light, wars between kings no longer appear as wars between elite factions, but contrived wars to control the masses by their greedy elite masters.",
+            "Communists, like the super-rich families, are not the enemies of MONOPOLY CAPITALISM: they are the foes of FREE ENTERPRISE.",
+            "Sometimes I think we’re alone in the universe, and sometimes I think we’re not. In either case the idea is quite staggering.",
+            "Absence of evidence is not the same as evidence of absence.",
+            "The weirwood’s bark was white as bone, its leaves dark red, like a thousand bloodstained hands. A face had been carved in the trunk of the great tree, its features long and melancholy, the deep-cut eyes red with dried sap and strangely watchful.",
+            "They say night’s beauties fade at dawn, and the children of wine are oft disowned in the morning light.",
+            "More than once, I have dreamed of giving up the crown. Take ship for the Free Cities with my horse and my hammer, spend my time warring and whoring, that’s what I was made for.",
+            "All halls lead somewhere. Where there is a way in, there is a way out. Fear cuts deeper than swords.",
+            "When one has once stood on the threshold of the other world one must die and almost invariably under terrible conditions. First giddiness, then catalepsy followed by madness.",
+            "Musti had kinship and fellowship with the things of the wild, and knew the secret of the changing of skin and could appear as wolf or bear or as cattle great or small and could much other magic besides.",
+            "That is not dead which can eternal lie, And with strange aeons even death may die.",
+            "Do what thou wilt shall be the whole of the Law.",
+            "Love is the law, love under will.",
+            "I am the blue-lidded daughter of Sunset; I am the naked brilliance of the voluptuous night-sky.",
+            "Fear not at all; fear neither men nor Fates, nor gods, nor anything. Money fear not, nor laughter of the folk folly, nor any other power in heaven or upon the earth or under the earth.",
+            "Be not entangled in the universal lie, O child of Truth!",
+            "That which causes us to create is our true father and mother; we create in our own image, which is theirs. Let us create therefore without fear; for we can create nothing that is not GOD.",
+            "The wings of love droop not with time, nor slacken for life or for death.",
+            "Dreams are imperfections of sleep; even so is consciousness the imperfection of waking.",
+            "Each act of man is the twist and double of an hare. Love and death are the greyhounds that course him.",
+            "Thou Child, holy Thy name and undefiled! Thwy reign is come: Thy will is done. Here is the Bread; here is the Blood. Bring me through midnight to the Sun! Save me from Evil and from Good! That Thy one crown of all the Ten. Even now and here be mine. AMEN.",
+            "I’ve often thought that there isn’t any “I” at all; that we are simply the means of expression of something else; that when we think we are ourselves; we are simply the victims of a delusion.",
+            "Every man and every woman is a star.",
+            "Change is the nature of the mind.",
+            "... It is the dharma of a scorpion to sting. But it is the dharma of a human being to save.",
+            "Yes, I am alone, but, then again, I always was, as far back as I can tell, I think maybe it's because you were never really real to begin with"
+            
+        ];
+
+        function getRandomText() {
+            const randomIndex = Math.floor(Math.random() * texts.length);
+            return texts[randomIndex];
+        }
+
+        document.getElementById('random-text').innerText = getRandomText();
