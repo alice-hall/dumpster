@@ -1,0 +1,57 @@
+    body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            overflow: hidden;
+            animation: flash 0.1s infinite;
+        }
+
+        @keyframes flash {
+            0% { background-color: black; }
+            25% { background-color: red; }
+            50% { background-color: black; }
+            75% { background-color: red; }
+            100% { background-color: black; }
+        }
+
+        .centered-text {
+            font-size: 4em;
+            font-weight: bold;
+            color: white;
+            text-shadow: 2px 2px 4px black;
+            text-align: justify;
+            text-transform: uppercase;
+            
+        }
+        
+.container {
+    position: relative;
+    text-align: center;
+}
+
+.foreground-image {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10; /* Ensure the image is in front */
+    opacity: 0.8; /* Optional: make the image slightly transparent */
+}
+
+.text-overlay {
+    position: relative;
+    z-index: 1;
+}
+
+h1, p {
+    margin: 0;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.7); /* Optional: add a background to the text for better readability */
+    text-transform: uppercase;
+}
