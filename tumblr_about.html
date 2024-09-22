@@ -2,7 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+        <link rel="shortcut icon" href="https://64.media.tumblr.com/d5cbd26d02ea8f0c69702afa42ffa3d0/770f04e733b6b148-65/s2048x3072/48c7fd49f5820e12c8ab66fea80173bb822219b1.png">
     
     <title>𝙳𝚘𝚗'𝚝 𝚜𝚙𝚎𝚊𝚔</title>
     
@@ -12,10 +17,11 @@
     margin: 0;
     padding: 0px 10px;
     height: 100%;
-    background-color: #fff;
+    background-color: #000;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #fff;
 }
 
 .centered-container {
@@ -24,6 +30,7 @@
     align-items: center;
     height: 100%;
     width: 100%;
+    max-width: 550px;
 }
 
 .centered-content {
@@ -32,22 +39,31 @@
 
 a { text-transform: uppercase; 
     line-height: 1.75em;
+    text-decoration: none;
+    font-weight: 300;
 }
 
 a, a:link, a:visited {
-    color: #0000ff;
+  font-family: "IBM Plex Mono", monospace;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+a:hover {
+    opacity: 0.6;
 }
 
 * {
     font-size: 12pt;
-    font-family: courier;
+     font-family: "Roboto Mono", monospace;
+     font-weight: 100;
 }
 
 p { 
-    font-family: sans-serif !important;
     font-size: 10pt;
     letter-spacing 1px;
     margin-left: 20px;
+    font-weight: 300;
 }
 
 h2 {
@@ -56,23 +72,32 @@ h2 {
 }
 
 span {
-    font-family: courier;
     text-transform: uppercase; 
     margin-right: 20px;
     font-weight: bold;
     letter-spacing: 1px;
 }
 
+nav {
+    margin-top: 40px;
+}
+
 ul.links, ul.links li, ul.links li a {
     list-style: none;
     padding: 0;
     margin: 0;
-    text-decoration: none;
 }
 
-ul.links li::before {
-    content: '> ';
+
+#tags, #tags a {
+    margin-top: 40px;
     font-size: 10pt;
+    text-align: left !important;
+}
+
+code {
+    font-family: courier, monospace;
+    background: #222;
 }
 
     </style>
@@ -86,13 +111,28 @@ ul.links li::before {
             
             <h2>... unless you can improve upon the silence.</h2>
             
-            <p>Artist/Illustrator in the process of delving into written work as a new way to push creative boundaries.</p>
+            <p>Artist/Illustrator based out of А̴̬̳̹̞̼̲̊̽̋̌͒̏́͒͘͜͝р̸̡̱͍͙̲̬͖̖͙̣͔̫͙͖̄͂̂́̂̅̓̽͂̊̈а̶̜͎͙̪̦̹͍̠͌͜л̸̨̲̞͖͇̜̓͗̉͒͌̿͐̑̍̏͒̊͝͝ь̵͇̝̪̭̹̺͚̈̇͠с̵̭͔̫̪̦͚̻͎̘̼̳̬̩̮̈́͒̌͛̐к̴̡̬̯̜͉̲̰̬̫̘̹͕̈́̆̾̀-̷̢̣͍̥͙͍͎̫́7̴̧͈̲̤̫̤̼͍͙̝̙̹͓̟͇̉͒̈́̆̍͜</p>
             
-<ul class="links">  
+<nav>
+<ul class="links">
+<li><a href="https://www.instagram.com/princeofinle/" target="_blank">Instagram</a></li>
 <li><a href="https://github.com/alice-hall" target="_blank">Github</a></li>
-<li>Contact: <a href="mailto:serialdeathrebirth@gmail.com">serialdeathrebirth@gmail.com</a></li>
-</ul>           
+<li><a href="https://junktech.newgrounds.com/" target="_blank">Newgrounds</a></li>
+<br />
+<li>Contact Me <a href="mailto:serialdeathrebirth@gmail.com">Serialdeathrebirth@gmail.com</a></li>
+<li>Discord: <code>junktech</code></li>
+</ul>
+</nav>
+
+
+
+<div id="tags">
+<h3>Tag List</h3>
+<a href="https://alicehall.art/tagged/sketchbook" target="_blank">#sketchbook</a> <a href="https://alicehall.art/tagged/process" target="_blank">#process</a>
+<a href="https://alicehall.art/tagged/sketchbook" target="_blank">#sketchbook</a> <a href="https://alicehall.art/tagged/photos" target="_blank">#photos</a> <a href="https://alicehall.art/tagged/luna" target="_blank">#luna</a> <a href="https://alicehall.art/tagged/thoughts" target="_blank">#thoughts</a>
+</div>
         </div>
     </div>
+
 </body>
 </html>
